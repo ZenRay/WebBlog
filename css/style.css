@@ -53,7 +53,7 @@ textarea:focus {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: rgba(0, 0, 0, .2) url('img/banner.jpg'); /* banner image*/
+  background: rgba(0, 0, 0, .2) url('../img/banner.jpg'); /* banner image*/
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -144,7 +144,7 @@ nav ul {
 }
 
 #logo-img img:hover {
-  background: black url('img/test.jpg');
+  background: black url('../img/test.jpg');
 }
 
 #menu-icon {
@@ -180,6 +180,9 @@ nav ul {
   margin-top: 72px;
   width: 100%;
   text-align: center;
+  opacity: 0;
+  pointer-events: none;
+
 }
 
 #slideout-menu ul{
@@ -341,7 +344,7 @@ footer #social-media-footer ul li:hover a .fa-github {
   }
 
   #slideout-menu {
-    /* display: flex; */
+    display: block;
   }
 
   #searchbox {
