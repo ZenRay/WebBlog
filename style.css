@@ -172,6 +172,7 @@ nav ul {
 
 /* Slideout menu */
 #slideout-menu {
+  display: none;
   background: #2d3436;
   z-index: 100;
   position: fixed;
@@ -338,6 +339,74 @@ footer #social-media-footer ul li:hover a .fa-github {
   #menu-icon {
     display: flex;
   }
+
+  #slideout-menu {
+    /* display: flex; */
+  }
+
+  #searchbox {
+    display: none;
+  }
+}
+
+@media(max-width:719px){
+  main {
+    width: 95%;
+  }
+
+  section {
+    flex-direction: column;
+  }
+
+  .card,
+  .card .card-image img {
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer #left-footer {
+    flex: 1;
+    border-right: 0;
+    padding-left: 0;
+  }
+
+  footer #right-footer {
+    background: #eee;
+    color: black;
+  }
+
+  footer #social-media-footer a .fa-facebook,
+  footer #social-media-footer a .fa-youtube,
+  footer #social-media-footer a .fa-github {
+    color: black;
+    transition: .3s;
+  }
+  
+}
+
+@media(max-width: 600px){
+  main {
+    width:100%;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  #banner h3{
+    font-size: 20px;
+  }
+
+  .card {
+    text-align: center;
+  }
+  #logo-img {
+    padding: 0;
+  }
 }
 
 @media(min-width:720px){
@@ -349,7 +418,7 @@ footer #social-media-footer ul li:hover a .fa-github {
     width: 45%;
   }
 
-  card .card-img img{
+  .card .card-img img{
     width: 100%;
   }
 }
