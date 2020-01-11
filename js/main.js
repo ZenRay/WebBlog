@@ -1,5 +1,5 @@
 const menuIcon = document.getElementById("menu-icon");
-const slideoutMenu = document.getElementById("slideout-menue");
+const slideoutMenu = document.getElementById("slideout-menu");
 const searchIcon = document.getElementById("search-icon");
 const searchBox = document.getElementById("searchbox");
 
