@@ -350,6 +350,10 @@ footer #social-media-footer ul li:hover a .fa-github {
   #searchbox {
     display: none;
   }
+
+  .btn-readmore {
+    margin-left: 10px;
+  }
 }
 
 @media(max-width:719px){
@@ -407,6 +411,11 @@ footer #social-media-footer ul li:hover a .fa-github {
   .card {
     text-align: center;
   }
+
+  .card-description {
+    text-align: left;
+  }
+
   #logo-img {
     padding: 0;
   }
